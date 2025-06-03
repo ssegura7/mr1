@@ -1,0 +1,116 @@
+﻿body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #0033cc;
+    color: #ff9966;
+}
+h1{
+    color: #33cc33;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    
+    
+}
+
+nav a {
+        background-color: #99ccff;
+        color: black;
+        display: block;
+        padding: 0.5em 1em;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+#types h2 {
+    font-family: "Courier New";
+    padding: 1em;
+    background-color: #196619;
+    border: 4px solid #aa00ff; 
+}
+
+#high-level h2 {
+    font-family: "Times New Roman";
+    padding: 1em;
+    background-color: #1f7a1f;
+    border:4px dashed #b31aff;
+   
+}
+
+#favorite h2 {
+    font-family: "Georgia";
+    padding: 1em;
+    background-color: #248f24;
+    border:4px dotted #bb33ff;
+}
+
+#top-programmers h2 {
+    font-family: Arial;
+    padding: 1em;
+    background-color: #29a329;
+    border:4px double #c44dff;
+}
+
+#glossary h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1em;
+    background-color: #2eb82e;
+    border:4px groove #cc66ff;
+}
+
+/*High-Level Languages*/
+
+#high-level h3 {
+    color: white;
+}
+
+/*My favorite language*/
+#favorite img {
+    left: 10000px;
+    margin-right: 1100px;
+    margin-bottom: 3px;
+   
+}
+/*Top 3 Programmers*/
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media(max-width: 424px) {
+    #top-programmers figure {
+        flex-direction: column;
+    }
+}
+
+/*Glossary*/
+
+#glossary dt {
+    color: white; /* Sets term text color */
+    font-weight: bold; /* Makes terms stand out */
+}
+
+#glossary dd {
+    color: black; /* Sets definition text color */
+    margin-left: 50px; /* Adds spacing */
+}
+
+#glossary dl > dt:nth-of-type(even),
+#glossary dl > dd:nth-of-type(even) {
+    background-color: #ffb366; /* Light gray background for every other pair */
+    padding: 10px; /* Adds spacing */
+}
+
+/*back to top hyperlink*/
+
+footer a {
+    background-color: #8cd98c;
+    color: black;
+    border-radius: 25px;
+    display: block;
+}
+
+

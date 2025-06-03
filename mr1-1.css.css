@@ -1,0 +1,123 @@
+﻿body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffccff;
+    color: black;
+}
+h1 {
+    color: #993300;
+}
+
+/*navigation*/
+
+nav{
+
+
+}
+nav a {
+    background-color: #996633;
+    color: white;
+    border-right: 1px white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+
+
+nav a:last-child {
+        border-right: none;
+    }
+
+/*Sections*/
+
+#types h2 {
+    font-family: "Courier New";
+    padding: 1em;
+    background-color: #cc33ff;
+    border: 4px solid #ff8000;
+}
+#high-level h2 {
+    font-family: "Times New Roman";
+    padding: 1em;
+    background-color: #d24dff;
+    border: 4px dashed #ff8c1a;
+}
+#favorite h2 {
+    font-family: "Georgia";
+    padding: 1em;
+    background-color: #d966ff;
+    border: 4px dotted #ff9933;
+}
+#top-programmers h2 {
+    font-family: Arial;
+    padding: 1em;
+    background-color: #df80ff;
+    border: 4px double #ffa64d;
+}
+#glossary h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1em;
+    background-color: #e699ff;
+    border: 4px groove #ffb366;
+}
+
+/*High-Level Languages*/
+
+#high-level h3{
+    color: #ff8000;
+}
+
+/*My favorite language*/
+#favorite p img {
+    float:left;
+    margin-left:0px;
+    margin-bottom: 50px;
+}
+
+/*Top 3 Programmers*/
+#top-programmers figure img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+@media(max-width: 424px){
+    #top-programmers figure{
+        flex-direction: column;
+    }
+}
+
+/*Glossary*/
+
+#glossary dl {
+    display: flex;
+    flex-direction: column; 
+}
+
+#glossary dt {
+    font-weight: bold;
+    width: 150px; 
+    display: inline-block;
+}
+
+#glossary dd {
+    display: inline-block; 
+    margin-left: 50px; 
+}
+
+#glossary dt:nth-of-type(n+2) {
+    border-top: 2px solid black; 
+}
+
+/*back to top hyperlink*/
+
+footer a{
+    font-size: 1em;
+    background-color:#79d279;
+    color: black;
+    border-radius: 25px;
+    display:block;
+}
+
+
